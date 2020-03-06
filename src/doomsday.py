@@ -7,7 +7,7 @@ day =   input("Give the number of the day   : ")
 #test
 doomsday = 0 
 
-doomsday_month = [0, 31, 28, 7, 4, 9, 6, 11, 8, 5, 10, 7, 12]
+doomsday_month = [0, 38, 28, 7, 4, 9, 6, 11, 8, 5, 10, 7, 12]
 
 weekday = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
 
@@ -25,7 +25,7 @@ def check_years_doomsday(year):
 		century_doomsday = 0
 	elif century in {18, 22, 26}:
 		century_doomsday = 5
-	else:
+	else
 		print("Date not available for calculation")
 		return
 	#printt "century = ",century
